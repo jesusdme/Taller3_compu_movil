@@ -199,8 +199,10 @@ class RastreoActivity : AppCompatActivity(), OnMapReadyCallback {
                         if (conec[cont]== false)
                             Toast.makeText(this@RastreoActivity, nombre+" "+apellido+" se ha conectado", Toast.LENGTH_SHORT).show()
                     }
-                    if (inic==true)
-                        conec[cont] =estado
+                    if (inic==true) {
+                        if (cont >= conec.size)
+                            conec.add(true)
+                    }
 
 
                     if (id == idDes && estado == true) {
