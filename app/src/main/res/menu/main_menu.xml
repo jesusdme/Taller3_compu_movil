@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/baseline_menu_24"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/usuariosMenu"
+        android:title="Usuarios"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cerrarSesion"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Activo"
+        android:title="Activo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/Inactivo"
+        android:title="Inactivo"
+        app:showAsAction="always"/>
+
+</menu>
